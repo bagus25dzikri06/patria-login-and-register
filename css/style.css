@@ -1,7 +1,7 @@
 .container {
-	background-image: url(https://trianglify.io/p/w:1440!h:900!x:random!v:0.196!c:0.068!s:2ljyd);
-	-webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+    background-image: url(https://trianglify.io/p/w:1440!h:900!x:random!v:0.196!c:0.068!s:2ljyd);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
