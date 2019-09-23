@@ -10,15 +10,8 @@
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Bootstrap Datepicker for the Birth Date Form -->
-    <script src="bsdatepicker/js/bootstrap-datepicker.js"></script>
-    <link rel="stylesheet" href="bsdatepicker/css/datepicker.css">
-    <script>
-      $(function () {
-      $('#datepicker').datepicker({
-      autoclose: true
-    });
-    });
-    </script>
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
 
     <title>Patria</title>
   </head>
@@ -75,6 +68,17 @@
                   <span class="input-group-text"><i class="fas fa-phone-number"></i></span>
                 </div>
                 <input type="text" class="form-control" placeholder="Phone Number">
+              </div>
+              <div class="input-group form-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-birth-date"></i></span>
+                </div>
+                <input id="datepicker" class="form-control" placeholder="Birth Date" width="276" />
+                <script>
+                    $('#datepicker').datepicker({
+                        uiLibrary: 'bootstrap4'
+                    });
+                </script>
               </div>
               <div class="input-group form-group">
                 <div class="input-group-prepend">
