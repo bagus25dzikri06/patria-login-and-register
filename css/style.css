@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 html,body{
-	background: url(assets/Group 1836.jpg) center center cover no-repeat fixed; 
-	height: 100%;
+	background-image: url(assets/Group1836.jpg); 
+	height: 75%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	font-family: 'Roboto', sans-serif;
 }
 
-.container{
+/*.container{
 	height: 100%;
 	align-content: center;
 }
@@ -96,4 +99,4 @@ input:focus{
 
 .links a{
 	margin-left: 4px;
-}
+} */
