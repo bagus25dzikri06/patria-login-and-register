@@ -14,15 +14,7 @@ html,body{
 }
 
 .card{
-	height: 500px;
-	margin-top: auto;
-	margin-bottom: auto;
-	width: 400px;
-	background-color: rgba(0,0,0,0.5) !important;
-}
-
-.signup-card{
-	height: 600px;
+	height: auto;
 	margin-top: auto;
 	margin-bottom: auto;
 	width: 400px;
