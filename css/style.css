@@ -13,16 +13,8 @@ html,body{
 	align-content: center;
 }
 
-.card .home-card{
+.card{
 	height: 300px;
-	margin-top: auto;
-	margin-bottom: auto;
-	width: 400px;
-	background-color: rgba(0,0,0,0.5) !important;
-}
-
-.signup-card{
-	height: 600px;
 	margin-top: auto;
 	margin-bottom: auto;
 	width: 400px;
