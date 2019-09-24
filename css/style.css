@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 html,body{
-	background-image: url('assets/Group 1836.jpg');
-	background-size: 1315px 538px;
-	background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center; 
+	background: url(assets/Group 1836.jpg) center center cover no-repeat fixed; 
 	height: 100%;
 	font-family: 'Roboto', sans-serif;
 }
