@@ -3,6 +3,9 @@
 html,body{
 	background-image: url('assets/Group 1836.jpg');
 	background-size: 1315px 538px;
+	background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
 	height: 100%;
 	font-family: 'Roboto', sans-serif;
 }
